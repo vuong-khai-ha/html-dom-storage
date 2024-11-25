@@ -1,0 +1,38 @@
+{
+  "name": "html-dom-storage",
+  "version": "1.0.0",
+  "description": "A lightweight package that provides a novel approach to storing temporary data directly in the HTML DOM.",
+  "main": "src/html-dom-storage.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest ./test",
+    "build": "rollup -c"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuong-khai-ha/html-dom-storage.git"
+  },
+  "keywords": [
+    "html dom",
+    "dom storage",
+    "temporary data"
+  ],
+  "author": "Ha Vuong Khai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuong-khai-ha/html-dom-storage/issues"
+  },
+  "homepage": "https://github.com/vuong-khai-ha/html-dom-storage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.27.4"
+  }
+}

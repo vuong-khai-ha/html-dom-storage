@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<title>HTML Dom Storage - Vuong Khai Ha</title>
+	</head>
+
+	<body>
+		<h1>HTML Dom Storage</h1>
+		<script type="text/javascript" src="../dist/html-dom-storage.min.js"></script>
+		<script type="text/javascript">
+			var storage = new HTMLDomStorage();
+			storage.init();
+			storage.setItem('vuong-khai-ha', { github: 'https://github.com/vuong-khai-ha/html-dom-storage' });
+			console.log(storage.getItem('vuong-khai-ha'))
+		</script>
+	</body>
+</html>
