@@ -12,11 +12,11 @@ HTMLDomStorage.prototype.__getItemKey = function(moduleName, keyName) {
 
 HTMLDomStorage.prototype.__parseData = function(data) {
 	return JSON.parse(data);
-}
+};
 
 HTMLDomStorage.prototype.__stringifyData = function(data) {
-	return JSON.stringify(data)
-}
+	return JSON.stringify(data);
+};
 
 HTMLDomStorage.prototype.__getWrapper = function() {
 	return document.getElementById(this.SELECTOR_WRAPPER);
@@ -67,6 +67,8 @@ HTMLDomStorage.prototype.commitTransaction = function() {
 		this.__getWrapper().appendChild(this.__fragment);
 	}
 	this.__fragment = null;
-}
+};
 
-module.exports = HTMLDomStorage
+window.HTMLDomStorage = HTMLDomStorage;
+
+export { HTMLDomStorage };
