@@ -1,6 +1,6 @@
 {
   "name": "html-dom-storage",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A lightweight package that provides a novel approach to storing temporary data directly in the HTML DOM.",
   "main": "src/html-dom-storage.js",
   "type": "module",
