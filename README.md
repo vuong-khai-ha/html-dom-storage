@@ -19,7 +19,7 @@ npm install html-dom-storage
 
 Or include directly in the browser:
 ```html
-<script src="dist/HTMLDomStorage.min.js"></script>
+<script src="dist/html-dom-storage.min.js"></script>
 ```
 
 #### Initialization
@@ -32,7 +32,7 @@ storage.init(); // Initializes the wrapper in the DOM
 
 For module systems (e.g., CommonJS, AMD, or ESM), use the UMD build:
 ```
-const HTMLDomStorage = require('HTMLDomStorage');
+const HTMLDomStorage = require('html-dom-storage');
 // OR for ES modules
 import HTMLDomStorage from 'HTMLDomStorage';
 const storage = new HTMLDomStorage();
@@ -78,7 +78,7 @@ storage.abortTransaction(); // Discards all changes
 
 ### Example Usage in HTML
 ```
-<script src="dist/HTMLDomStorage.js"></script>
+<script src="dist/html-dom-storage.min.js"></script>
 <script>
   var storage = new HTMLDomStorage();
   storage.init();
